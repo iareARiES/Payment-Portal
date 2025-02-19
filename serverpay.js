@@ -9,8 +9,8 @@ const port = 3000;
 
 // Initialize Razorpay instance
 const razorpay = new Razorpay({
-  key_id: 'rzp_test_vl7yYnDYiXhLns',
-  key_secret: 'HzmDHln6QG2IcGKU4MSilzK3'
+  key_id: 'YOUR_RAYZOR_PAY_API_KEY',
+  key_secret: 'YOUR_SECRET_KEY'
 });
 // Serve static files (e.g., index.html) from the 'public' directory
 app.get('/', (req, res) => {
